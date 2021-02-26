@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     public void buttonPress (View v){
         System.out.println("Hello World!");
         text.setText(inputBox.getEditText().getText().toString());
-        text.setText("Hello World!");
+        //text.setText("Hello World!");
     }
-
 }
